@@ -40,13 +40,20 @@ yarn install
 ## ⚙️ Konfigurasi
 
 1. Buat file `token.txt` di root project dan tambahkan token AsterAI Anda (satu token per baris)
-2. (Opsional) Buat file `proxy.txt` untuk proxy (satu proxy per baris, format: http://, https://, socks4://, socks5://)
+```
+nano token.txt
+```
+   
+3. (Opsional) Buat file `proxy.txt` untuk proxy (satu proxy per baris, format: http://, https://, socks4://, socks5://)
+   
+```
+nano proxy.txt
+```
 
 Contoh `token.txt`:
 ```
-token_anda_1
-token_anda_2
-token_anda_3
+eyj...
+eyj..
 ```
 
 Contoh `proxy.txt`:
